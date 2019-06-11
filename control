@@ -1,0 +1,9 @@
+Package: beta.simalary.intoxicated
+Name: Intoxicated (Beta)
+Depends: mobilesubstrate
+Version: 0.2-beta3
+Architecture: iphoneos-arm
+Description: Be responsible if you don't drink responsibly.
+Maintainer: Simalary (Chris)
+Author: Simalary (Chris)
+Section: Tweaks
