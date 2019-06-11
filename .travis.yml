@@ -20,9 +20,8 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure:
+    secure: FMRe3LXSoVac2eHuMxG/BrF9CBJBzMk9kBOm11TOlt4X+BMgBLwnoAvQdP6aBp0aMTRIt/islno9SrzYomBCYXqa87fyAlpXQCL3y75gk21tIMBfI9zFfr+dw/VPs97h5z9NDRSSIJ+ITWEKmZ9u9En+BSfmtI8CYbnUpfytTiK6FH3wGM2m/A2Hp+CmI9IsDm9X50F1CY8ib5eRabTgFd8Uc95pHyXRnOGyFYbn4+SeEsPiCk0TvECvL/NSYoiki4MtkZyNrdA9yyDy/bjyKr2cpGF0ot+FN89xRHPZi3H9C6JQ+EWk4erRpc9brKPF1aceFWoF3CBhHMbpbJ8H+PH4Nqz904xhEPlYxoekEZB4ZIkpUpyFB6zdfIVJWeHP2rESZ8tTKye3VVVjcRQvet/GyKN9jJMfG/+XixcKeOxPA8i93BH5I09ppWvqLWKg6+eS4sRktlzn/UNvXwXR1TDRKd69ysVHEsYqr/XsiT2ctZVK3KjF/NqqGF7tYcI94xJ7FYJ5sm1OqNdn5Lr0KMHI9lfzlymxlRted58ONJHAUcEz6UbgUdSInuwGLpilQk1V80q5BJwjFMjQ4+Q4ix7zcTyUgEgBzXrtl/sdybklhphDScke9HXLdLu3oO/jFI2tM8ykUTtPbxjP2ZqJPs+mK5nVwmVB/Gv5dv8hJEo=
   file_glob: true
   file: "${RELEASE_PKG_FILE}"
   on:
     repo: Simalary/Intoxicated
-    branch: master
